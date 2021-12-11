@@ -3,6 +3,8 @@ import * as React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./homepage.css";
+import SLIDE from "../Slide/slide.js";
+
 
 export const HOMEPAGE = () => {
   React.useEffect(function () {
@@ -33,6 +35,7 @@ export const HOMEPAGE = () => {
             </div>
           </div>
         </div>
+        <SLIDE></SLIDE>
       </div>
     </div>
   );
