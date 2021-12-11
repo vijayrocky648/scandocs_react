@@ -18,10 +18,10 @@ export const HOMEPAGE = () => {
         <div className="row justify-content-center">
           <div className="col-md-6  text-center item" id="lefttext">
             <h1 data-aos="fade-up" data-aos-delay="1400">
-              {" "}
               Go <span>paperless</span> and keep important documents alongside
               your notes.
             </h1>
+            <h5 data-aos="fade-up" data-aos-delay="1800">Scandocs is a digital document-keeping app using which you can add all your documents.</h5>
           </div>
         </div>
         <div className="row justify-content-center" data-aos="fade-up" data-aos-delay="2400">
